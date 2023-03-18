@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #edf1f4;
+    background-color: #090413d0;
     min-height: 100vh;
 }
 
@@ -22,14 +22,15 @@ body{
     position: relative;
     width: 340px;
     padding: 20px;
-    box-shadow: 15px 15px 20px rgb(185, 181, 181),
-    -15px -15px 20px #fffb;
+    box-shadow: 15px 15px 20px ,
+    -15px -15px 20px ;
     border-radius: 20px;
 }
 .calculator .buttons
 {
     position: relative;
     display: grid;
+    
 
 }
 .calculator .buttons #value
@@ -39,7 +40,7 @@ body{
     overflow:none ;
     width: 100%;
     text-align: end;
-    color: #5166d6;
+    color: #e5e6ee;
     font-size: 2em;
     min-width: 10px;
     font-weight: 500;
@@ -49,27 +50,27 @@ body{
     line-height: 85px;
     height: 100px;
     user-select: none;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.1),
-    inset -5px -5px 20px #fff;
+    box-shadow: inset 5px 5px 10px rgb(250, 246, 246),
+    inset -5px -5px 20px ;
 }
 
 .calculator .buttons span{
     position: relative;
     text-align: center ;
     padding: 10px;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.1),
-     -5px -5px 20px #fff;
-    margin:8px;
+    box-shadow:  5px 5px 10px rgb(218, 211, 211),
+     -5px -5px 20px ;
+    margin:10px;
     cursor: pointer;
     min-width: 50px;
     user-select: none;
     display: flex;
     align-items: center;
     font-size: 1.1em;
-    border: 2px solid #edf1f4;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.1),
-    -5px -5px 10px #fff;   
-    border-radius: 10px; 
+    border: 2px solid;
+    box-shadow:  5px 5px 10px  rgb(250, 246, 246),
+    1px -1px -4px  rgb(250, 246, 246) ;   
+    border-radius: 12px; 
 }
 
 .calculator .buttons span:active{
@@ -81,22 +82,22 @@ body{
 .calculator .buttons span#clear{
     grid-column: span 2;
     background: #f44336;
-    color: #fff;
-    border: 2px solid #edf1f4;
+    /* color: #fff;
+    border: 2px solid #edf1f4; */
 }
 
 .calculator .buttons span#plus{
     grid-row: span ;
     background: #31a935;
-    color: #fff;
-    border: 2px solid #edf1f4;
+    /* color: #fff;
+    border: 2px solid #edf1f4; */
 }
 
 .calculator .buttons span#equal{
     grid-row: span 2 ;
     background: #2196f3;
-    color: #fff;
-    border: 2px solid #edf1f4;
+    /* color: #fff;
+    border: 2px solid #edf1f4; */
 }
 
 .calculator .buttons span#erase{
