@@ -12,6 +12,7 @@ for (let i=0; i < btn.length; i++){
             if(this.innerHTML == "Clear"){
                 value.innerHTML ="";
             }
+       
         else{
             value.innerHTML +=this.innerHTML;
             }
