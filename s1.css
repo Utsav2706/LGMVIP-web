@@ -26,6 +26,9 @@ body{
     -15px -15px 20px ;
     border-radius: 20px;
 }
+/* p .cal{
+    text-align: center;
+} */
 .calculator .buttons
 {
     position: relative;
@@ -100,11 +103,11 @@ body{
     border: 2px solid #edf1f4; */
 }
 
-.calculator .buttons span#erase{
+.calculator .buttons span#back{
     grid-column: span ;
-    background: #44484b;
-    color: #fff;
-    border: 2px solid #edf1f4;
+    background: #dae722;
+    /* color: #fff;
+    border: 2px solid #edf1f4; */
 }
 
 
