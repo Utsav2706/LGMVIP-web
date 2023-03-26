@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="en"/>
+    <link rel="stlyesheet" type="text/css" href="style.css">
+	<title>Form</title>
+    
+</head>
+<body>
+<style>
+div.x{
+border:1px solid aqua;
+text-align:center;
+position:fixed;
+background-color: aqua;
+bottom: 585px;
+top:5px;
+  right: 200px;
+  left: 400px;
+  width: 500px;
+
+}
+
+div.y{
+border:2px solid blue;
+text-align:center;
+position:fixed;
+bottom: 200px;
+top: 100px;
+left: 70px	;
+  right: 0;
+  width: 300px;
+}
+
+div.z{
+border:2px solid blue;
+text-align:center;
+position:fixed;
+bottom:200px;
+top: 100px;
+left: 800px	; 
+text-indent: 5px;
+table-layout: fixed ;
+
+  right: 600px;
+  width: 400px;
+}
+
+input.border{
+	border-radius: 5px;
+	
+}
+label.mar{
+	margin-left: 1px;
+	margin-right: 30px;
+}
+
+label.marg{
+	margin-left: 10px;
+	margin-right: 140px;
+}
+
+input.marm1{
+	margin-left: -100px;
+}
+
+input.marm2{
+	margin-left: 45px;
+	left: 5px;
+}
+
+</style>
+
+
+
+	<div class="x">
+    	<h1 id ="h1">Student Enrollment Form</h1>
+	</div>
+    <div class="y">
+	<from action="#" method="POST">	
+		<br>
+	<label class="mar">Name</label>
+		<input class="border" type="Text" name ="nm" id ="nm" required=""/>
+        </br>
+        </br>
+		
+	<label class="mar">Email</label>
+		<input type="email" class="border" name ="email" id ="email" required=""/>
+        </br>
+        </br>
+
+    <label class="mar">Website</label>
+		<input type="Text" name ="web" class="border" id ="web" required=""/>
+        </br> 
+        </br>
+
+    <label class="mar">Image URL</label>
+		<input type="Text" name ="iurl" id ="iurl" class="border"  required=""/>
+        </br>
+        </br>
+
+	<label class="marg">Gender</label>
+		<input type="radio" class="marm1" name ="gender" id ="male" checked="checked"/><label class="">Male</label></br>
+		
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="radio" class="marm2" name ="gender" id ="female" /><label class="">Female</label>
+        </br>
+		</br>
+
+	<label class="mar">Skills</label>&nbsp&nbsp
+		<input type="Checkbox" name ="JAVA" id ="JAVA" required="" checked="checked"/><label>JAVA</label>&nbsp&nbsp
+		<input type="Checkbox" name ="HTML" id ="HTML"/><label>HTML</label>&nbsp&nbsp
+		<input type="Checkbox" name ="CSS" id ="CSS"/><label>CSS</label>&nbsp&nbsp&nbsp&nbsp
+			</br>
+			
+		</br>
+	</br>
+		<input type="button"  value ="Enroll Student"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type="button" value="Clear"  /> 
+        </div>
+
+		<div class ="z">
+        <h3>Enrolled Students</h3>
+			<div>
+				<p>hello</p>
+				<p>hello</p>
+				</div>
+       </div>  
+	<!-- <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$nm = $_POST["nm"];
+		$email = $_POST["email"];
+		$web = $_POST["web"];
+		$iurl = $_POST["iurl"];
+
+		echo "<h2>Registration Details:</h2>";
+		echo "<p>name: " . $nm . "</p>";
+		echo "<p>email: " . $email . "</p>";
+		echo "<p>web: " . $seb . "</p>";
+		echo "<p>iurl: " . $iurl . "</p>";
+	}
+	?> --> 
+	</form>
+	</body>
+</html>
